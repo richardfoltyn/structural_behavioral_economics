@@ -9,10 +9,6 @@
 
 This repository contains Python and Julia notebooks to replicate the structural estimates of a set of papers in the field of Behavioral Economics. Following DellaVigna (*Handbook of Behavioral Economics*, 2018), we define structural as *"the estimation of a model on data that recovers estimates (and confidence intervals) for some key behavioral parameters"*. [Python](https://www.python.org) and [Julia](https://julialang.org) are two programming languages that offer some advantages compared to others often used by economists, namely, they are free and open source (which promotes replicability, since anybody with a computer can set up the environment and run the code) and are easy to read (and to write in!). While the main disadvantage of Python (with respect to, e.g., Matlab) is its speed, Julia is blazingly fast. We hope this resource can help other researchers and ease the transition from Stata, R and Matlab to Python and Julia.
 
-### How Do I Navigate This Repository?
-
-This repository contains one folder for each paper whose structural estimates we replicate. Each folder contains five sub-folders named: paper, original_replication_files, code, input, and output. The sub-folder "paper" contains .pdf files for the paper and its appendices. The sub-folder "original_replication_files" contains the replication datasets and codes downloaded from the journal's website. The sub-folder "code" contains the notebooks we created to replicate the paper's structural estimates with Python and Julia; the Python notebook has extension .ipynb (and can be opened with [Jupyter](https://jupyter.org)) while the Julia notebook has extension .jl (and can be opened with [Neptune](https://github.com/compleathorseplayer/Neptune.jl) and [Pluto](https://github.com/fonsp/Pluto.jl)). The sub-folder "input" contains all the data imported in the notebooks to generate the estimates. The sub-folder "output" contains .csv files with the estimation results obtained running the notebooks.
-
 ### What Papers Does Your Code Replicate?
 
 This repository contains the notebooks to replicate the main structural estimates in the following papers:
