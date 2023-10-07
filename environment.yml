@@ -1,0 +1,16 @@
+name: structural-behavioral-econ
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - scipy=1.11
+  - notebook
+  - matplotlib
+  - pandas=2.0
+  - pip
+  - pip: 
+    - autograd
+  # - pip: 
+  #   - jax [cuda12_local] >= 0.4.16
+  #   - jaxlib [cuda12_local] >= 0.4.16
